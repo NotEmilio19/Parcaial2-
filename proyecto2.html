@@ -1,0 +1,50 @@
+<html> 
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="efectos2.css">
+	<script src="javaproyect.js" type="text/JavaScript"></script>
+	<title>Proyecto2</title>
+</head>
+<body><center>
+	<p class="titulo24">Generador de correo</p>
+	<table border="3" width="80%">
+	<form name="forma">
+		<tr>
+			<td width="50%"><p>Indica tu nombre</p></td>
+			<td width="50%" align="center"><input name="Nombre" type="text" class="campo" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td width="50%"><p>Indica el Ap. paterno</p></td>
+			<td width="50%" align="center"><input name="ap_paterno" type="text" class="campo" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td width="50%"><p>Indica el Ap. materno</p></td>
+			<td width="50%" align="center"><input name="ap_materno" type="text" class="campo" maxlength="50"></td>
+		</tr>
+		<tr>
+			<td width="50%"><p>Indica tu fecha de nacimeinto</p></td>
+			<td width="50%" align="center"><input name="Fec_nac" type="date" class="campo"></td>
+		</tr>
+		<tr> 
+			<td width="50%"><p>Correo resultante</p></td>
+			<td width="50%" align="center"><input type="text" name="correo" readonly="true" class="campo" style="background: gray;"></td>
+		</tr>
+		<tr>
+			<td width="50%"><p>Contraseña resultante</p></td>
+			<td width="50%" align="center"><input type="text" name="contra" readonly="true" class="campo" style="background: gray;"></td>
+		</tr>
+		<tr>
+				<td align="center" colspan="3">
+					<table width="80%">
+						<tr align="center">
+							<td><input type="button" name="b_ejecuta" class="boton" value="Ejectutar" onclick="ejecuta()"></td>
+							<td><input type="reset" name="b_reset" class="boton" value="Reiniciar" style="background:red;"></td>
+						</tr>
+</table>
+</td>
+</tr>
+</form>
+</table>
+</center>
+</body>
+</html>
